@@ -54,11 +54,11 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""✨ **Welcome {message.from_user.mention()} !**\n
-💭 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **Allows you to play music and video on groups through the new Telegram's video chats!**
+💭 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **𝖠𝗅𝗅𝗈𝗐𝗌 𝗒𝗈𝗎 𝗍𝗈 𝗉𝗅𝖺𝗒 𝗆𝗎𝗌𝗂𝖼 𝖺𝗇𝖽 𝗏𝗂𝖽𝖾𝗈 𝗈𝗇 𝗀𝗋𝗈𝗎𝗉𝗌 𝗍𝗁𝗋𝗈𝗎𝗀𝗁 𝗍𝗁𝖾 𝗇𝖾𝗐 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆'𝗌 𝗏𝗂𝖽𝖾𝗈 𝖼𝗁𝖺𝗍𝗌!**
 
-💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
+💡 **𝖥𝗂𝗇𝖽 𝗈𝗎𝗍 𝖺𝗅𝗅 𝗍𝗁𝖾 𝖡𝗈𝗍'𝗌 𝖼𝗈𝗆𝗆𝖺𝗇𝖽𝗌 𝖺𝗇𝖽 𝗁𝗈𝗐 𝗍𝗁𝖾𝗒 𝗐𝗈𝗋𝗄 𝖻𝗒 𝖼𝗅𝗂𝖼𝗄𝗂𝗇𝗀 𝗈𝗇 𝗍𝗁𝖾 » 📚 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌 𝖻𝗎𝗍𝗍𝗈𝗇!**
 
-🔖 **To know how to use this bot, please click on the » ❓ Basic Guide button!**
+🔖 **𝗧𝗼 𝗸𝗻𝗼𝘄 𝗵𝗼𝘄 𝘁𝗼 𝘂𝘀𝗲 𝘁𝗵𝗶𝘀 𝗯𝗼𝘁, 𝗽𝗹𝗲𝗮𝘀𝗲 𝗰𝗹𝗶𝗰𝗸 𝗼𝗻 𝘁𝗵𝗲 » ❓ 𝗕𝗮𝘀𝗶𝗰 𝗚𝘂𝗶𝗱𝗲 𝗯𝘂𝘁𝘁𝗼𝗻!**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -147,9 +147,9 @@ async def new_chat(c: Client, m: Message):
     for member in m.new_chat_members:
         if member.id == bot_id:
             return await m.reply(
-                "❤️ **Thanks for adding me to the Group !**\n\n"
-                "**Promote me as administrator of the Group, otherwise I will not be able to work properly, and don't forget to type /userbotjoin for invite the assistant.**\n\n"
-                "**Once done, type** /reload",
+                "❤️ **𝚃𝚑𝚊𝚗𝚔𝚜 𝚏𝚘𝚛 𝚊𝚍𝚍𝚒𝚗𝚐 𝚖𝚎 𝚝𝚘 𝚝𝚑𝚎 𝙶𝚛𝚘𝚞𝚙 !**\n\n"
+                "**𝙿𝚛𝚘𝚖𝚘𝚝𝚎 𝚖𝚎 𝚊𝚜 𝚊𝚍𝚖𝚒𝚗𝚒𝚜𝚝𝚛𝚊𝚝𝚘𝚛 𝚘𝚏 𝚝𝚑𝚎 𝙶𝚛𝚘𝚞𝚙, 𝚘𝚝𝚑𝚎𝚛𝚠𝚒𝚜𝚎 𝙸 𝚠𝚒𝚕𝚕 𝚗𝚘𝚝 𝚋𝚎 𝚊𝚋𝚕𝚎 𝚝𝚘 𝚠𝚘𝚛𝚔 𝚙𝚛𝚘𝚙𝚎𝚛𝚕𝚢, 𝚊𝚗𝚍 𝚍𝚘𝚗'𝚝 𝚏𝚘𝚛𝚐𝚎𝚝 𝚝𝚘 𝚝𝚢𝚙𝚎 /𝚞𝚜𝚎𝚛𝚋𝚘𝚝𝚓𝚘𝚒𝚗 𝚏𝚘𝚛 𝚒𝚗𝚟𝚒𝚝𝚎 𝚝𝚑𝚎 𝚊𝚜𝚜𝚒𝚜𝚝𝚊𝚗𝚝.**\n\n"
+                "**𝙾𝚗𝚌𝚎 𝚍𝚘𝚗𝚎, 𝚝𝚢𝚙𝚎** /𝚛𝚎𝚕𝚘𝚊𝚍",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [

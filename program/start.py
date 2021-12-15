@@ -111,7 +111,7 @@ async def alive(client: Client, message: Message):
         ]
     )
 
-    alive = f"**Hello {message.from_user.mention()}, i'm {BOT_NAME}**\n\n✨ Bot is working normally\n🍀 My Master: [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n✨ Bot Version: `v{__version__}`\n🍀 Pyrogram Version: `{pyrover}`\n✨ Python Version: `{__python_version__}`\n🍀 PyTgCalls version: `{pytover.__version__}`\n✨ Uptime Status: `{uptime}`\n\n**Thank you very much for adding me here❕ I will entertain you by playing video & music on your group's video chat** ❤"
+    alive = f"**Hello {message.from_user.mention()}, i'm {BOT_NAME}**\n\n✨ Bot is working normally\n🍀 My Master: [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n✨ Bot Version: `v{__version__}`\n🍀 Pyrogram Version: `{pyrover}`\n✨ Python Version: `{__python_version__}`\n🍀 PyTgCalls version: `{pytover.__version__}`\n✨ Uptime Status: `{uptime}`\n\n**𝑻𝒉𝒂𝒏𝒌 𝒚𝒐𝒖 𝒗𝒆𝒓𝒚 𝒎𝒖𝒄𝒉 𝒇𝒐𝒓 𝒂𝒅𝒅𝒊𝒏𝒈 𝒎𝒆 𝒉𝒆𝒓𝒆 ❕ 𝑰 𝒘𝒊𝒍𝒍 𝒆𝒏𝒕𝒆𝒓𝒕𝒂𝒊𝒏 𝒚𝒐𝒖 𝒃𝒚 𝒑𝒍𝒂𝒚𝒊𝒏𝒈 𝒗𝒊𝒅𝒆𝒐 & 𝒎𝒖𝒔𝒊𝒄 𝒐𝒏 𝒚𝒐𝒖𝒓 𝒈𝒓𝒐𝒖𝒑'𝒔 𝒗𝒊𝒅𝒆𝒐 𝒄𝒉𝒂𝒕** ❤"
 
     await message.reply_photo(
         photo=f"{ALIVE_IMG}",

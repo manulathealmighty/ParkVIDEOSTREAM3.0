@@ -110,9 +110,9 @@ async def stream_end_handler(_, u: Update):
         print(chat_id)
         op = await skip_current_song(chat_id)
         if op==1:
-           await bot.send_message(chat_id, "✅ __Queues__ **is empty**\n\n» **𝙼𝚞𝚜𝚒𝚌 𝚜𝚝𝚛𝚎𝚊𝚖 𝚊𝚜𝚜𝚒𝚜𝚝𝚊𝚗𝚝 𝚒𝚜 𝚕𝚎𝚊𝚟𝚒𝚗𝚐 𝚝𝚑𝚎 𝚟𝚘𝚒𝚌𝚎 𝚌𝚑𝚊𝚝**")
+           await bot.send_message(chat_id, "🀄️ __Queues__ **is empty**\n\n» **𝙼𝚞𝚜𝚒𝚌 𝚜𝚝𝚛𝚎𝚊𝚖 𝚊𝚜𝚜𝚒𝚜𝚝𝚊𝚗𝚝 𝚒𝚜 𝚕𝚎𝚊𝚟𝚒𝚗𝚐 𝚝𝚑𝚎 𝚟𝚘𝚒𝚌𝚎 𝚌𝚑𝚊𝚝**")
         elif op==2:
-           await bot.send_message(chat_id, "❌ **an error occurred**\n\n» **Clearing** __Queues__ **and leaving video chat.**")
+           await bot.send_message(chat_id, "❌ **𝗔𝗻 𝗲𝗿𝗿𝗼𝗿 𝗼𝗰𝗰𝘂𝗿𝗲𝗱**\n\n» **Clearing** __Queues__ **and leaving video chat.**")
         else:
          await bot.send_message(chat_id, f"💡 **𝐒𝐭𝐫𝐞𝐚𝐦𝐢𝐧𝐠 𝐧𝐞𝐱𝐭 𝐭𝐫𝐚𝐜𝐤**\n\n🏷 **Name:** [{op[0]}]({op[1]}) | `{op[2]}`\n💭 **Chat:** `{chat_id}`", disable_web_page_preview=True, reply_markup=keyboard)
     else:

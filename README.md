@@ -92,6 +92,6 @@ python3 main.py # run the bot.
 # Credits 💖
 
 - [Levina](https://github.com/levina-lab) ``Dev``
-- [Manula] (https://github.com/manulathealmighty) ``Noob Editor``
+- [Manula](https://github.com/manulathealmighty) ``Noob Editor``
 ### Support & Updates 🎑
 <a href="https://t.me/luvchaeyoung_botupdates"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/RoseannePark_updates"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>

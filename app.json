@@ -8,61 +8,69 @@
         "video stream",
         "pyrogram"
     ],
-    "website": "https://t.me/levinachannel",
-    "repository": "https://github.com/levina-lab/video-stream",
-    "success_url": "https://t.me/dlwrml",
+    "website": "https://t.me/RoseannePark_updates",
+    "repository": "https://github.com/manulathealmighty/ParkVIDEOSTREAM3.0",
+    "success_url": "https://t.me/ucant_surpassmebruh",
     "env": {
         "API_ID": {
             "description": "your API_ID from my.telegram.org",
-            "required": true
+            "required": true,
+            "value": "11617012"
         },
         "API_HASH": {
             "description": "your API_HASH from my.telegram.org",
-            "required": true
+            "required": true,
+            "value": "99571c5c9665a3f708e42180ef83bc51"
         },
         "BOT_TOKEN": {
             "description": "your bot token from @BotFather",
-            "required": true
+            "required": true,
+            "value": "2145808122:AAE1cL87r2yLt5Owlw9_uJjkMGjuaBwqpFM"
         },
         "BOT_USERNAME": {
             "description": "your bot username from @BotFather",
-            "required": true
+            "required": true,
+            "value": "Levina"
         },
         "BOT_NAME": {
             "description": "fill with your bot name from @BotFather",
-            "required": true
+            "required": true,
+            "value": "𝑹𝒐𝒔𝒆𝒂𝒏𝒏𝒆 𝑷𝒂𝒓𝒌"
         },
         "ASSISTANT_NAME": {
             "description": "fill with the assistant username account without @",
-            "required": true
+            "required": true,
+            "value": "stanchaeyoung_exe"
         },
         "SESSION_NAME": {
             "description": "fill with the pyrogram String Session",
-            "required": true
+            "required": true,
+            "value": "BQBXzMF3XWxjwolmagspxkq_Et5-TrQENpd66Pk4l10XAeEhVGxUYk3MzUiySQ8zL0AWiIgMMKWRd2qHhyUJ1m_KRryZqRWqMnxPXke12K14SvqzIUK7PItIgu357ewObsNLw-8LNmGfeXEsqyyfl-xxRcjVBDLz6E-wn000yQmgyY6tMB-c59LJzDG1LyU949QNXXgxfMcdsajsVNLILv54kdpRXZrKIDvKJIDvc2ySABfZNJ_5bcYn-MHk2nl0RxHeNUbCEpVhpeouc9p_c6HQOMQ5gwkIJW0ldvdN05UMfE63qRKNbxyOyhqtjKgZEyTu3eF39M_yVmrzgcAk2IOtcXO9zQA"
         },
         "SUDO_USERS": {
             "description": "list of user ids to be added to sudo member list, or just fill with your id",
-            "required": true
+            "required": true,
+            "value": "814025137"
         },
         "GROUP_SUPPORT": {
             "description": "if you have group, then fill the group username here without @",
             "required": true,
-            "value": "VeezSupportGroup"
+            "value": "luvchaeyoung_botupdates"
         },
         "UPDATES_CHANNEL": {
             "description": "if you have channel, then fill the channel username here without @",
             "required": true,
-            "value": "levinachannel"
+            "value": "RoseannePark_updates"
         },
         "OWNER_NAME": {
             "description": "fill with your telegram account username without @",
             "required": true,
-            "value": "dlwrml"
+            "value": "ucant_surpassmebruh"
         },
         "ALIVE_NAME": {
             "description": "fill with your telegram account nickname/name",
             "required": true,
-            "value": "Levina"
+            "value": "✪мαηυℓα..☍🈶"
         }
     },
     "addons": [],
